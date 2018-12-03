@@ -1,6 +1,8 @@
 <template>
   <video-jumbo :data="data">
-    显示在中间的内容
+    <div style="margin-bottom: 30px;">
+      显示在中间的内容
+    </div>
   </video-jumbo>
 </template>
 <script>
