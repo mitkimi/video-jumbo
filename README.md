@@ -15,7 +15,7 @@ $ npm install --save @mit/video-jumbo
 ## Change Log
 
 - Dec. 3, 2018
-  - first try
+  - dom and styles for several tablets/phones
 
 - Nov. 30, 2018
   - inital project
