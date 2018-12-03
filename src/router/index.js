@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import NProgress from 'nprogress';
-import Index from '@/views/index';
+import Index from '@/views/index/index';
 
 Vue.use(Router);
 
@@ -16,13 +15,13 @@ const vueRouter = new Router({
   ],
 });
 
-vueRouter.beforeEach((to, from, next) => {
-  NProgress.start();
-  next();
-});
+// vueRouter.beforeEach((to, from, next) => {
+//   NProgress.start();
+//   next();
+// });
 
-vueRouter.afterEach(() => {
-  NProgress.done();
-});
+// vueRouter.afterEach(() => {
+//   NProgress.done();
+// });
 
 export default vueRouter;
