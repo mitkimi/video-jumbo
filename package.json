@@ -9,6 +9,25 @@
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
+  "main": "main.js",
+  "homepage": "https://github.com/mitkimi/video-jumbo",
+  "bugs": {
+    "url": "https://github.com/mitkimi/video-jumbo/issues"
+  },
+  "keywords": [
+    "vue",
+    "vue.js",
+    "video",
+    "video jumbo",
+    "popup video",
+    "video slider",
+    "background video"
+  ],
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitkimi/video-jumbo.git"
+  },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
