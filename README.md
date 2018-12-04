@@ -1,23 +1,18 @@
 # video-jumbo
 
-> A vue.js Video Jumbo plugin for Slider or Jumbo Page
+> A Vue.js project
 
-## Usage
+## Build Setup
 
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
 ```
-# bash
-$ npm install --save @mit/video-jumbo
 
-# later on
-
-```
-
-## Change Log
-
-- Dec. 3, 2018
-  - Doms and styles for several tablets/phones
-  - Upload to test
-
-- Nov. 30, 2018
-  - inital project
-  - basic dom
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
