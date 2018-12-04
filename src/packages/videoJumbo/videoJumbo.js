@@ -9,6 +9,10 @@ export default {
   },
   data() {
     return {
+      pageData: {
+        playBtn: require('./img/play.png'),
+        closeBtn: require('./img/close.png')
+      },
       mitShowPopupVideo: false,
       backgroundVideoUrl: '',
       popupVideoUrl: '',

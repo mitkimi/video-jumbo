@@ -6,14 +6,14 @@
     <div class="mit-video-mask">
       <div class="mit-for-user" style="color: #ffffff;"><slot></slot></div>
       <div class="mit-play-btn" @click="handleMitShowPopupVideo">
-        <img src="./img/play.png" />
+        <img :src="pageData.playBtn" />
       </div>
     </div>
   </div>
   <transition name="fade">
     <div class="mit-popup-video-container" v-if="mitShowPopupVideo">
       <div class="mit-popup-close-btn" @click="handleMitHidePopupVideo">
-        <img src="./img/close.png" />
+        <img :src="pageData.closeBtn" />
       </div>
       <div class="mit-popup-video">
         <video ref="popupVideo" class="mit-popup-video-element" :src="popupVideoUrl" controls="controls"></video>
