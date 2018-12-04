@@ -6,7 +6,7 @@
   </video-jumbo>
 </template>
 <script>
-import VideoJumbo from '@/components/videoJumbo';
+import VideoJumbo from '../videoJumbo';
 
 export default {
   components: {

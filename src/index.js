@@ -1,3 +1,3 @@
-import videoJumbo from '@/components/videoJumbo';
+import videoJumbo from './videoJumbo';
 
 module.exports = videoJumbo;

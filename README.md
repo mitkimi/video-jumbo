@@ -1,4 +1,4 @@
-# @mit/video-jumbo
+# video-jumbo
 
 > A vue.js Video Jumbo plugin for Slider or Jumbo Page
 
