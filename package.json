@@ -1,7 +1,7 @@
 {
   "name": "video-jumbo",
   "description": "A vue.js Video Jumbo plugin for Slider or Jumbo Page",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "田昊天 <mitkimi@163.com>",
   "license": "MIT",
   "private": false,
