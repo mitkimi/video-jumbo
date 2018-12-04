@@ -3,7 +3,7 @@ var webpack = require('webpack')
 
 // 执行环境
 const NODE_ENV = process.env.NODE_ENV
-
+console.log('当前环境：', NODE_ENV);
 module.exports = {
   entry: NODE_ENV == 'development' ? './src/main.js' : './src/index.js',
   output: {

@@ -1,4 +1,4 @@
-import VideoJumbo from './packages/videoJumbo';
+import VideoJumbo from './packages/videoJumbo/';
 
 const components = [
   VideoJumbo
