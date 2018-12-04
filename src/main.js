@@ -3,16 +3,6 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-import VideoJumbo from './components/videoJumbo/';
-
-// 插件安装部分
-const myPlugin = {};
-myPlugin.install = () => {
-  if (myPlugin.install.installed) {
-    return;
-  }
-  Vue.component('video-jumbo', VideoJumbo);
-};
 
 Vue.config.productionTip = false;
 
@@ -24,4 +14,3 @@ new Vue({
   template: '<App/>',
 });
 
-module.exports.default = myPlugin;
